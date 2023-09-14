@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Carousel Start -->
+@await Component.InvokeAsync("Carousel")
+
+<!-- Testimonial Start -->
+@await Component.InvokeAsync("Testimonial")
+<!-- Testimonial End -->

@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewComponents\Carousels\" />
+    <None Remove="Views\Shared\Components\Carousel\" />
+    <None Remove="ViewComponents\Jobs\" />
+    <None Remove="Views\Shared\Components\Job\" />
+    <None Remove="ViewComponents\Testimonials\" />
+    <None Remove="Views\Shared\Components\Testimonial\" />
+    <None Remove="Views\About\" />
+    <None Remove="Views\JobDetail\" />
+    <None Remove="Views\JobList\" />
+    <None Remove="Views\Contact\" />
+    <None Remove="Views\ErrorPage\" />
+    <None Remove="Concrete\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewComponents\Carousels\" />
+    <Folder Include="Views\Shared\Components\Carousel\" />
+    <Folder Include="ViewComponents\Jobs\" />
+    <Folder Include="Views\Shared\Components\Job\" />
+    <Folder Include="ViewComponents\Testimonials\" />
+    <Folder Include="Views\Shared\Components\Testimonial\" />
+    <Folder Include="Views\About\" />
+    <Folder Include="Views\JobDetail\" />
+    <Folder Include="Views\JobList\" />
+    <Folder Include="Views\Contact\" />
+    <Folder Include="Views\ErrorPage\" />
+    <Folder Include="Concrete\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
+  </ItemGroup>
+</Project>

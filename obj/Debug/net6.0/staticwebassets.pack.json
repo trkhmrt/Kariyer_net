@@ -1,0 +1,793 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/obj/Debug/net6.0/scopedcss/projectbundle/Kariyer_net.bundle.scp.css",
+      "PackagePath": "staticwebassets/Kariyer_net.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/404.html",
+      "PackagePath": "staticwebassets/template/404.html"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/LICENSE.txt",
+      "PackagePath": "staticwebassets/template/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/READ-ME.txt",
+      "PackagePath": "staticwebassets/template/READ-ME.txt"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/about.html",
+      "PackagePath": "staticwebassets/template/about.html"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/category.html",
+      "PackagePath": "staticwebassets/template/category.html"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/contact.html",
+      "PackagePath": "staticwebassets/template/contact.html"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/template/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/css/style.css",
+      "PackagePath": "staticwebassets/template/css/style.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/about-1.jpg",
+      "PackagePath": "staticwebassets/template/img/about-1.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/about-2.jpg",
+      "PackagePath": "staticwebassets/template/img/about-2.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/about-3.jpg",
+      "PackagePath": "staticwebassets/template/img/about-3.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/about-4.jpg",
+      "PackagePath": "staticwebassets/template/img/about-4.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/carousel-1.jpg",
+      "PackagePath": "staticwebassets/template/img/carousel-1.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/carousel-2.jpg",
+      "PackagePath": "staticwebassets/template/img/carousel-2.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/com-logo-1.jpg",
+      "PackagePath": "staticwebassets/template/img/com-logo-1.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/com-logo-2.jpg",
+      "PackagePath": "staticwebassets/template/img/com-logo-2.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/com-logo-3.jpg",
+      "PackagePath": "staticwebassets/template/img/com-logo-3.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/com-logo-4.jpg",
+      "PackagePath": "staticwebassets/template/img/com-logo-4.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/com-logo-5.jpg",
+      "PackagePath": "staticwebassets/template/img/com-logo-5.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/logo.ico",
+      "PackagePath": "staticwebassets/template/img/logo.ico"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/testimonial-1.jpg",
+      "PackagePath": "staticwebassets/template/img/testimonial-1.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/testimonial-2.jpg",
+      "PackagePath": "staticwebassets/template/img/testimonial-2.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/testimonial-3.jpg",
+      "PackagePath": "staticwebassets/template/img/testimonial-3.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/img/testimonial-4.jpg",
+      "PackagePath": "staticwebassets/template/img/testimonial-4.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/index.html",
+      "PackagePath": "staticwebassets/template/index.html"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/job-detail.html",
+      "PackagePath": "staticwebassets/template/job-detail.html"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/job-list.html",
+      "PackagePath": "staticwebassets/template/job-list.html"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/job-portal-website-template.jpg",
+      "PackagePath": "staticwebassets/template/job-portal-website-template.jpg"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/js/main.js",
+      "PackagePath": "staticwebassets/template/js/main.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/animate/animate.css",
+      "PackagePath": "staticwebassets/template/lib/animate/animate.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/animate/animate.min.css",
+      "PackagePath": "staticwebassets/template/lib/animate/animate.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/easing/easing.js",
+      "PackagePath": "staticwebassets/template/lib/easing/easing.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/easing/easing.min.js",
+      "PackagePath": "staticwebassets/template/lib/easing/easing.min.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/owlcarousel/LICENSE",
+      "PackagePath": "staticwebassets/template/lib/owlcarousel"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/owlcarousel/assets/ajax-loader.gif",
+      "PackagePath": "staticwebassets/template/lib/owlcarousel/assets/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/owlcarousel/assets/owl.carousel.css",
+      "PackagePath": "staticwebassets/template/lib/owlcarousel/assets/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/owlcarousel/assets/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/template/lib/owlcarousel/assets/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/owlcarousel/assets/owl.theme.default.css",
+      "PackagePath": "staticwebassets/template/lib/owlcarousel/assets/owl.theme.default.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/owlcarousel/assets/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/template/lib/owlcarousel/assets/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/owlcarousel/assets/owl.theme.green.css",
+      "PackagePath": "staticwebassets/template/lib/owlcarousel/assets/owl.theme.green.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/owlcarousel/assets/owl.theme.green.min.css",
+      "PackagePath": "staticwebassets/template/lib/owlcarousel/assets/owl.theme.green.min.css"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/owlcarousel/assets/owl.video.play.png",
+      "PackagePath": "staticwebassets/template/lib/owlcarousel/assets/owl.video.play.png"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/owlcarousel/owl.carousel.js",
+      "PackagePath": "staticwebassets/template/lib/owlcarousel/owl.carousel.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/owlcarousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/template/lib/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/waypoints/links.php",
+      "PackagePath": "staticwebassets/template/lib/waypoints/links.php"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/waypoints/waypoints.min.js",
+      "PackagePath": "staticwebassets/template/lib/waypoints/waypoints.min.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/wow/wow.js",
+      "PackagePath": "staticwebassets/template/lib/wow/wow.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/lib/wow/wow.min.js",
+      "PackagePath": "staticwebassets/template/lib/wow/wow.min.js"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_accordion.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_accordion.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_alert.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_alert.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_badge.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_badge.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_breadcrumb.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_button-group.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_button-group.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_buttons.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_buttons.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_card.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_card.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_carousel.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_carousel.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_close.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_close.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_containers.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_containers.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_dropdown.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_forms.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_forms.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_functions.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_functions.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_grid.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_grid.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_helpers.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_helpers.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_images.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_images.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_list-group.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_list-group.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_mixins.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_mixins.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_modal.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_modal.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_nav.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_nav.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_navbar.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_navbar.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_offcanvas.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_offcanvas.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_pagination.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_pagination.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_popover.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_popover.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_progress.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_progress.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_reboot.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_reboot.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_root.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_root.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_spinners.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_spinners.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_tables.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_tables.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_toasts.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_toasts.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_tooltip.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_tooltip.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_transitions.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_transitions.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_type.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_type.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_utilities.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_utilities.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/_variables.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/_variables.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/bootstrap-grid.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/bootstrap-grid.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/bootstrap-reboot.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/bootstrap-utilities.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/bootstrap.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/bootstrap.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/forms/_floating-labels.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/forms/_floating-labels.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/forms/_form-check.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/forms/_form-check.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/forms/_form-control.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/forms/_form-control.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/forms/_form-range.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/forms/_form-range.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/forms/_form-select.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/forms/_form-select.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/forms/_form-text.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/forms/_form-text.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/forms/_input-group.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/forms/_input-group.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/forms/_labels.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/forms/_labels.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/forms/_validation.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/forms/_validation.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/helpers/_clearfix.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/helpers/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/helpers/_colored-links.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/helpers/_colored-links.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/helpers/_position.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/helpers/_position.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/helpers/_ratio.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/helpers/_ratio.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/helpers/_stretched-link.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/helpers/_stretched-link.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/helpers/_text-truncation.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/helpers/_text-truncation.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/helpers/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/helpers/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_alert.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_alert.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_border-radius.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_border-radius.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_box-shadow.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_box-shadow.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_breakpoints.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_breakpoints.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_caret.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_caret.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_clearfix.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_color-scheme.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_color-scheme.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_container.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_container.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_deprecate.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_deprecate.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_forms.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_forms.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_gradients.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_gradients.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_grid.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_grid.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_image.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_image.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_list-group.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_list-group.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_lists.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_lists.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_pagination.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_pagination.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_reset-text.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_reset-text.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_resize.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_resize.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_table-variants.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_table-variants.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_text-truncate.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_text-truncate.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_transition.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_transition.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_utilities.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_utilities.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/mixins/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/mixins/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/utilities/_api.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/utilities/_api.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/scss/bootstrap/scss/vendor/_rfs.scss",
+      "PackagePath": "staticwebassets/template/scss/bootstrap/scss/vendor/_rfs.scss"
+    },
+    {
+      "Id": "/Users/tarikhamarat/Projects/Kariyer_net/wwwroot/template/testimonial.html",
+      "PackagePath": "staticwebassets/template/testimonial.html"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.Kariyer_net.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.Kariyer_net.props",
+      "PackagePath": "build\\Kariyer_net.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Kariyer_net.props",
+      "PackagePath": "buildMultiTargeting\\Kariyer_net.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Kariyer_net.props",
+      "PackagePath": "buildTransitive\\Kariyer_net.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
