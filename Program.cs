@@ -1,4 +1,8 @@
-﻿namespace Kariyer_net;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization; //Authorizefilter için eklenmesi gerekli
+
+namespace Kariyer_net;
 
 public class Program
 {
@@ -9,7 +13,33 @@ public class Program
         // Add services to the container.
         builder.Services.AddControllersWithViews();
 
+        
+
+
+        
+        //Authorizon işlemi için eklendi
+        //builder.Services.AddMvc(config =>
+        //{
+        //    //Proje düzeyinde authorizan işlemi oluşturduk ve bu sayede bütün sitelere şu anda erişim engelli.İzin verdiğimiz sayfalara sadece erişim verilir.
+        //    var kural = new AuthorizationPolicyBuilder()
+        //    .RequireAuthenticatedUser()
+        //    .Build();
+        //    config.Filters.Add(new AuthorizeFilter(kural));
+        //});
+
+        //===================================================================
+        //Authontice olmadan girilen sayfalardaki hataları göstermeden ilgili sayfaya yönlendirmesi için kullandık bu komutu.
+        //builder.Services.AddMvc();
+       //builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x =>
+       // {
+       //     x.LoginPath = "/Login/Index";
+       // });
+
         var app = builder.Build();
+
+        //Otantike olmayı kullanabilmek için bunu kullanmamız gerekiyor
+        //app.UseAuthentication();
+
 
         // Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())
@@ -19,15 +49,21 @@ public class Program
             app.UseHsts();
         }
 
+
+        //Sessionı kullanmak için
+        
+
+
         app.UseHttpsRedirection();
         app.UseStaticFiles();
+        //Hata Sayfası yönetimi
         app.UseStatusCodePagesWithReExecute("/ErrorPage/Index", "?code={0}");
 
         app.UseRouting();
 
 
 
-        app.UseAuthorization();
+        //app.UseAuthorization();
 
         app.MapControllerRoute(
             name: "default",

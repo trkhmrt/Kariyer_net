@@ -1,0 +1,69 @@
+extends ../_layout/default.pug
+
+block styles
+  link(href='node_modules/@coreui/chartjs/dist/css/coreui-chartjs.css', rel='stylesheet')
+
+block scripts
+  script(src='node_modules/chart.js/dist/chart.min.js')
+  script(src='node_modules/@coreui/chartjs/dist/js/coreui-chartjs.js')
+  script(src='js/charts.js')
+
+block breadcrumb
+  +breadcrumb(['Home', 'Components'], 'Charts')
+
+block view
+  .row.row-cols-2
+    .col
+      .card.mb-4
+        .card-header
+          strong Chart
+          span.small.ms-1 Line
+        .card-body
+          +example('http://www.chartjs.org/')
+            .c-chart-wrapper
+              canvas#canvas-1
+    .col
+      .card.mb-4
+        .card-header
+          strong Chart
+          span.small.ms-1 Bar
+        .card-body
+          +example('http://www.chartjs.org/')
+            .c-chart-wrapper
+              canvas#canvas-2
+    .col
+      .card.mb-4
+        .card-header
+          strong Chart
+          span.small.ms-1 Doughnut
+        .card-body
+          +example('http://www.chartjs.org/')
+            .c-chart-wrapper
+              canvas#canvas-3
+    .col
+      .card.mb-4
+        .card-header
+          strong Chart
+          span.small.ms-1 Radar
+        .card-body
+          +example('http://www.chartjs.org/')
+            .c-chart-wrapper
+              canvas#canvas-4
+    .col
+      .card.mb-4
+        .card-header
+          strong Chart
+          span.small.ms-1 Pie
+        .card-body
+          +example('http://www.chartjs.org/')
+            .c-chart-wrapper
+              canvas#canvas-5
+    .col
+      .card.mb-4
+        .card-header
+          strong Chart
+          span.small.ms-1 Polar Area
+        .card-body
+          +example('http://www.chartjs.org/')
+            .c-chart-wrapper
+              canvas#canvas-6

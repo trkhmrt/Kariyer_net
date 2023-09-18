@@ -1,0 +1,768 @@
+extends ../../_layout/default.pug
+
+block canonical
+  link(rel='canonical' href='https://coreui.io/docs/content/tables/')
+
+block breadcrumb
+  +breadcrumb(['Home', 'Components', 'Base'], 'Tables')
+
+block view
+
+  .car
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Basic example
+    .card-body
+      p.text-medium-emphasis.small
+        | Using the most basic table markup, here’s how 
+        code .table
+        | -based tables look in Bootstrap.
+      +example('https://coreui.io/docs/content/tables/#overview')
+        table.table
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Variants
+    .card-body
+      p.text-medium-emphasis.small Use contextual classes to color tables, table rows or individual cells.
+      +example('https://coreui.io/docs/content/tables/#variants')
+        table.table
+          thead
+            tr
+              th(scope='col') Class
+              th(scope='col') Heading
+              th(scope='col') Heading
+          tbody
+            tr
+              th(scope='row') Default
+              td Cell
+              td Cell
+            tr.table-primary
+              th(scope='row') Primary
+              td Cell
+              td Cell
+            tr.table-secondary
+              th(scope='row') Secondary
+              td Cell
+              td Cell
+            tr.table-success
+              th(scope='row') Success
+              td Cell
+              td Cell
+            tr.table-danger
+              th(scope='row') Danger
+              td Cell
+              td Cell
+            tr.table-warning
+              th(scope='row') Warning
+              td Cell
+              td Cell
+            tr.table-info
+              th(scope='row') Info
+              td Cell
+              td Cell
+            tr.table-light
+              th(scope='row') Light
+              td Cell
+              td Cell
+            tr.table-dark
+              th(scope='row') Dark
+              td Cell
+              td Cell
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Striped rows
+    .card-body
+      p.text-medium-emphasis.small
+        | Use 
+        code .table-striped
+        |  to add zebra-striping to any table row within the 
+        code 
+          = '<tbody>'
+        | .
+      +example('https://coreui.io/docs/content/tables/#striped-rows')
+        table.table.table-striped
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+      p.text-medium-emphasis.small These classes can also be added to table variants:
+      +example('https://coreui.io/docs/content/tables/#striped-rows')
+        table.table.table-dark.table-striped
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+      +example('https://coreui.io/docs/content/tables/#striped-rows')
+        table.table.table-success.table-striped
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Hoverable rows
+    .card-body
+      p.text-medium-emphasis.small
+        | Add 
+        code .table-hover
+        |  to enable a hover state on table rows within a 
+        code 
+          = '<tbody>'
+        | .
+      +example('https://coreui.io/docs/content/tables/#hoverable-rows')
+        table.table.table-hover
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+      +example('https://coreui.io/docs/content/tables/#hoverable-rows')
+        table.table.table-dark.table-hover
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+      p.text-medium-emphasis.small These hoverable rows can also be combined with the striped variant:
+      +example('https://coreui.io/docs/content/tables/#hoverable-rows')
+        table.table.table-striped.table-hover
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Active tables
+    .card-body
+      p.text-medium-emphasis.small
+        | Highlight a table row or cell by adding a 
+        code .table-active
+        |  class.
+      +example('https://coreui.io/docs/content/tables/#active-tables')
+        table.table
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr.table-active
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td.table-active(colspan='2') Larry the Bird
+              td @twitter
+      +example('https://coreui.io/docs/content/tables/#active-tables')
+        table.table.table-dark
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr.table-active
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td.table-active(colspan='2') Larry the Bird
+              td @twitter
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Bordered tables
+    .card-body
+      p.text-medium-emphasis.small
+        | Add 
+        code .table-bordered
+        |  for borders on all sides of the table and cells.
+      +example('https://coreui.io/docs/content/tables/#bordered-tables')
+        table.table.table-bordered
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+      p.text-medium-emphasis.small
+        a(href='https://coreui.io/docs/utilities/borders/#border-color') Border color utilities
+        |  can be added to change colors:
+      +example('https://coreui.io/docs/content/tables/#bordered-tables')
+        table.table.table-bordered.border-primary
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Tables without borders
+    .card-body
+      p.text-medium-emphasis.small
+        | Add 
+        code .table-borderless
+        |  for a table without borders.
+      +example('https://coreui.io/docs/content/tables/#tables-without-borders')
+        table.table.table-borderless
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+      +example('https://coreui.io/docs/content/tables/#tables-without-borders')
+        table.table.table-dark.table-borderless
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter     
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Small tables
+    .card-body
+      p.text-medium-emphasis.small
+        | Add 
+        code .table-sm
+        |  to make any 
+        code .table
+        |  more compact by cutting all cell 
+        code padding
+        |  in half.
+      +example('https://coreui.io/docs/content/tables/#small-tables')
+        table.table.table-sm
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+      +example('https://coreui.io/docs/content/tables/#small-tables')
+        table.table.table-dark.table-sm
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Vertical alignment
+    .card-body
+      p.text-medium-emphasis.small
+        | Table cells of 
+        code 
+          = '<thead>'
+        |  are always vertical aligned to the bottom. Table cells in 
+        code 
+          = '<tbody>'
+        |  inherit their alignment from 
+        code 
+          = '<table>'
+        |  and are aligned to the the top by default. Use the 
+        a(href='https://coreui.io/docs/utilities/vertical-align/') vertical align
+        |  classes to re-align where needed.
+      +example('https://coreui.io/docs/content/tables/#vertical-alignment')
+        .table-responsive
+          table.table.align-middle
+            thead
+              tr
+                th.w-25(scope='col') Heading 1
+                th.w-25(scope='col') Heading 2
+                th.w-25(scope='col') Heading 3
+                th.w-25(scope='col') Heading 4
+            tbody
+              tr
+                td
+                  | This cell inherits 
+                  code vertical-align: middle;
+                  |  from the table
+                td
+                  | This cell inherits 
+                  code vertical-align: middle;
+                  |  from the table
+                td
+                  | This cell inherits 
+                  code vertical-align: middle;
+                  |  from the table
+                td
+                  | This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.
+              tr.align-bottom
+                td
+                  | This cell inherits 
+                  code vertical-align: bottom;
+                  |  from the table row
+                td
+                  | This cell inherits 
+                  code vertical-align: bottom;
+                  |  from the table row
+                td
+                  | This cell inherits 
+                  code vertical-align: bottom;
+                  |  from the table row
+                td
+                  | This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.
+              tr
+                td
+                  | This cell inherits 
+                  code vertical-align: middle;
+                  |  from the table
+                td
+                  | This cell inherits 
+                  code vertical-align: middle;
+                  |  from the table
+                td.align-top This cell is aligned to the top.
+                td
+                  | This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Nesting
+    .card-body
+      p.text-medium-emphasis.small
+        | Border styles, active styles, and table variants are not inherited by nested tables.
+      +example('https://coreui.io/docs/content/tables/#nesting')
+        table.table.table-striped.table-bordered
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              td(colspan='4')
+                table.table.mb-0
+                  thead
+                    tr
+                      th(scope='col') Header
+                      th(scope='col') Header
+                      th(scope='col') Header
+                  tbody
+                    tr
+                      th(scope='row') A
+                      td First
+                      td Last
+                    tr
+                      th(scope='row') B
+                      td First
+                      td Last
+                    tr
+                      th(scope='row') C
+                      td First
+                      td Last
+            tr
+              th(scope='row') 3
+              td Larry
+              td the Bird
+              td @twitter
+
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Table head
+    .card-body
+      p.text-medium-emphasis.small
+        | Similar to tables and dark tables, use the modifier classes 
+        code .table-light
+        |  or 
+        code .table-dark
+        |  to make 
+        code 
+          = '<thead>'
+        | s appear light or dark gray.
+      +example('https://coreui.io/docs/content/tables/#table-head')
+        table.table
+          thead.table-light
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td Larry
+              td the Bird
+              td @twitter
+      +example('https://coreui.io/docs/content/tables/#table-head')
+        table.table
+          thead.table-dark
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td Larry
+              td the Bird
+              td @twitter
+
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Table foot
+    .card-body
+      +example('https://coreui.io/docs/content/tables/#table-foot')
+        table.table
+          thead.table-light
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td Larry
+              td the Bird
+              td @twitter
+          tfoot
+            tr
+              td Footer
+              td Footer
+              td Footer
+              td Footer
+
+  .card.mb-4
+    .card-header
+      strong Tables
+      span.small.ms-1 Captions
+    .card-body
+      p.text-medium-emphasis.small
+        | A 
+        code 
+          = '<caption>'
+        |  functions like a heading for a table. It helps users with screen readers to find a table and understand what it’s about and decide if they want to read it.
+      +example('https://coreui.io/docs/content/tables/#captions')
+        table.table
+          caption List of users
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td(colspan='2') Larry the Bird
+              td @twitter
+      p.text-medium-emphasis.small
+        | You can also put the 
+        code 
+          = '<caption>'
+        |  on the top of the table with 
+        code .caption-top
+        | .
+      +example('https://coreui.io/docs/content/tables/#captions')
+        table.table.caption-top
+          caption List of users
+          thead
+            tr
+              th(scope='col') #
+              th(scope='col') First
+              th(scope='col') Last
+              th(scope='col') Handle
+          tbody
+            tr
+              th(scope='row') 1
+              td Mark
+              td Otto
+              td @mdo
+            tr
+              th(scope='row') 2
+              td Jacob
+              td Thornton
+              td @fat
+            tr
+              th(scope='row') 3
+              td Larry
+              td the Bird
+              td @twitter

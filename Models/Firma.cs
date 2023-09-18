@@ -9,6 +9,7 @@ namespace Kariyer_net.Models
 		public int FirmaID { get; set; }
 		public string FirmaAdi { get; set; }
 		public string FirmaAciklama { get; set; }
+		
 	}
 
 }

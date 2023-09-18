@@ -1,0 +1,89 @@
+extends ../../_layout/default.pug
+
+block canonical
+  link(rel='canonical' href='https://coreui.io/docs/forms/select/')
+
+block breadcrumb
+  +breadcrumb(['Home', 'Components', 'Forms'], 'Select')
+
+block view
+  .row
+    .col-12
+      .card.mb-4
+        .card-header
+          strong Select
+          span.small.ms-1 Default
+        .card-body
+          p.text-medium-emphasis.small
+            | Custom 
+            code
+             = '<select>'
+            |  menus need only a custom class, 
+            code .form-select
+            |  to trigger the custom styles. Custom styles are limited to the 
+            code
+             = '<select>'
+            | ’s initial appearance and cannot modify the 
+            code
+             = '<option>'
+            | s due to browser limitations.
+          +example('https://coreui.io/docs/forms/select/#default')
+            select.form-select(aria-label='Default select example')
+              option(selected) Open this select menu
+              option(value='1') One
+              option(value='2') Two
+              option(value='3') Three
+    .col-12
+      .card.mb-4
+        .card-header
+          strong Select
+          span.small.ms-1 Sizing
+        .card-body
+          p.text-medium-emphasis.small You may also choose from small and large custom selects to match our similarly sized text inputs.
+          +example('https://coreui.io/docs/forms/select/#sizing')
+            select.form-select.form-select-lg.mb-3(aria-label='.form-select-lg example')
+              option(selected) Open this select menu
+              option(value='1') One
+              option(value='2') Two
+              option(value='3') Three
+            select.form-select.form-select-sm(aria-label='.form-select-sm example')
+              option(selected) Open this select menu
+              option(value='1') One
+              option(value='2') Two
+              option(value='3') Three
+          p.text-medium-emphasis.small
+            | The 
+            code multiple
+            |  attribute is also supported:
+          +example('https://coreui.io/docs/forms/select/#sizing')
+            select.form-select(multiple aria-label='multiple select example')
+              option(selected) Open this select menu
+              option(value='1') One
+              option(value='2') Two
+              option(value='3') Three
+          p.text-medium-emphasis.small
+            | As is the 
+            code size
+            |  attribute:
+          +example('https://coreui.io/docs/forms/select/#sizing')
+            select.form-select(size='3' aria-label='size 3 select example')
+              option(selected) Open this select menu
+              option(value='1') One
+              option(value='2') Two
+              option(value='3') Three
+    .col-12
+      .card.mb-4
+        .card-header
+          strong Select
+          span.small.ms-1 Disabled
+        .card-body
+          p.text-medium-emphasis.small
+            | Add the 
+            code disabled
+            |  boolean attribute on a select to give it a grayed out appearance and remove pointer events.
+          +example('https://coreui.io/docs/forms/select/#disabled')
+            select.form-select(aria-label='Disabled select example' disabled)
+              option(selected) Open this select menu
+              option(value='1') One
+              option(value='2') Two
+              option(value='3') Three

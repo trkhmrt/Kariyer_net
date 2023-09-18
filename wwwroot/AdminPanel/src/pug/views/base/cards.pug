@@ -1,0 +1,823 @@
+extends ../../_layout/default.pug
+
+block canonical
+  link(rel='canonical' href='https://coreui.io/docs/components/card/')
+
+block breadcrumb
+  +breadcrumb(['Home', 'Components', 'Base'], 'Cards')
+
+block view
+
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Example
+    .card-body
+      p.text-medium-emphasis.small
+        | Cards are built with as little markup and styles as possible but still manage to deliver a bunch of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components. Cards have no top, left, and right margins by default, so use 
+        a(href='https://coreui.io/docs/utilities/spacing/') spacing utilities
+        |  as needed. They have no fixed width to start, so they’ll fill the full width of its parent.
+      p.text-medium-emphasis.small
+        | Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they’ll naturally fill the full width of its parent element. This is easily customized with our various 
+        a(href='#sizing') sizing options
+        | .
+      +example('https://coreui.io/docs/components/card/#example')
+        .card(style='width: 18rem;')
+          img.card-img-top(src='assets/img/full.jpg' alt='')
+          .card-body
+            h5.card-title Card title
+            p.card-text
+              | Some quick example text to build on the card title and make up the bulk of the card's content.
+            a.btn.btn-primary(href='#') Go somewhere
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Body
+    .card-body
+      p.text-medium-emphasis.small
+        | The main block of a card is the 
+        code .card-body
+        | . Use it whenever you need a padded section within a card.
+      +example('https://coreui.io/docs/components/card/#body')
+        .card
+          .card-body
+            | This is some text within a card body.
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Titles, text, and links
+    .card-body
+      p.text-medium-emphasis.small
+        | Card titles are managed by adding 
+        code .card-title
+        |  to a 
+        code 
+          = '<h*>'
+        |  tag. Identically, links are attached and collected next to each other by adding 
+        code .card-link
+        |  to an 
+        code 
+          = '<a>'
+        |  tag.
+      p.text-medium-emphasis.small
+        | Subtitles are managed by adding a 
+        code .card-subtitle
+        |  to a 
+        code 
+          = '<h*>'
+        |  tag. If the 
+        code .card-title
+        |  also, the 
+        code .card-subtitle
+        |  items are stored in a 
+        code .card-body
+        |  item, the card title, and subtitle are arranged rightly.
+      +example('https://coreui.io/docs/components/card/#titles-text-and-links')
+        .card(style='width: 18rem;')
+          .card-body
+            h5.card-title Card title
+            h6.card-subtitle.mb-2.text-medium-emphasis Card subtitle
+            p.card-text
+              | Some quick example text to build on the card title and make up the bulk of the card's content.
+            a.card-link(href='#') Card link
+            a.card-link(href='#') Another link
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Images
+    .card-body
+      p.text-medium-emphasis.small
+        code .card-img-top
+        |  places a picture to the top of the card. With 
+        code .card-text
+        | , text can be added to the card. Text within 
+        code .card-text
+        |  can additionally be styled with the regular HTML tags.
+      +example('https://coreui.io/docs/components/card/#titles-text-and-links')
+        .card(style='width: 18rem;')
+          img.card-img-top(src='assets/img/full.jpg' alt='')
+          .card-body
+            p.card-text
+              | Some quick example text to build on the card title and make up the bulk of the card's content.
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 List groups
+    .card-body
+      p.text-medium-emphasis.small Create lists of content in a card with a flush list group.
+      +example('https://coreui.io/docs/components/card/#list-groups')
+        .row
+          .col-lg-4
+            .card
+              ul.list-group.list-group-flush
+                li.list-group-item An item
+                li.list-group-item A second item
+                li.list-group-item A third item
+          .col-lg-4
+            .card
+              .card-header
+                | Featured
+              ul.list-group.list-group-flush
+                li.list-group-item An item
+                li.list-group-item A second item
+                li.list-group-item A third item
+          .col-lg-4
+            .card
+              ul.list-group.list-group-flush
+                li.list-group-item An item
+                li.list-group-item A second item
+                li.list-group-item A third item
+              .card-footer
+                | Card footer
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Kitchen sink
+    .card-body
+      p.text-medium-emphasis.small
+        | Combine and match many content types to build the card you need, or throw everything in there. Shown below are image styles, blocks, text styles, and a list group—all wrapped in a fixed-width card.
+      +example('https://coreui.io/docs/components/card/#kitchen-sink')
+        .card(style='width: 18rem;')
+          img.card-img-top(src='assets/img/full.jpg' alt='')
+          .card-body
+            h5.card-title Card title
+            p.card-text
+              | Some quick example text to build on the card title and make up the bulk of the card's content.
+          ul.list-group.list-group-flush
+            li.list-group-item An item
+            li.list-group-item A second item
+            li.list-group-item A third item
+          .card-body
+            a.card-link(href='#') Card link
+            a.card-link(href='#') Another link
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Header and footer
+    .card-body
+      p.text-medium-emphasis.small Add an optional header and/or footer within a card.
+      +example('https://coreui.io/docs/components/card/#header-and-footer')
+        .card.mb-3
+          .card-header
+            | Featured
+          .card-body
+            h5.card-title Special title treatment
+            p.card-text With supporting text below as a natural lead-in to additional content.
+            a.btn.btn-primary(href='#') Go somewhere
+      p.text-medium-emphasis.small
+        | Card headers can be styled by adding 
+        code .card-header
+        |  to 
+        code 
+          = '<h*>'
+        |  elements.
+      +example('https://coreui.io/docs/components/card/#header-and-footer')
+        .card.mb-3
+          h5.card-header Featured
+          .card-body
+            h5.card-title Special title treatment
+            p.card-text With supporting text below as a natural lead-in to additional content.
+            a.btn.btn-primary(href='#') Go somewhere
+      +example('https://coreui.io/docs/components/card/#header-and-footer')
+        .card.mb-3
+          .card-header
+            | Quote
+          .card-body
+            blockquote.blockquote.mb-0
+              p A well-known quote, contained in a blockquote element.
+              footer.blockquote-footer
+                | Someone famous in 
+                cite(title='Source Title') Source Title
+      +example('https://coreui.io/docs/components/card/#header-and-footer')
+        .card.text-center
+          .card-header
+            | Featured
+          .card-body
+            h5.card-title Special title treatment
+            p.card-text With supporting text below as a natural lead-in to additional content.
+            a.btn.btn-primary(href='#') Go somewhere
+          .card-footer.text-medium-emphasis
+            | 2 days ago
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Sizing - Using grid markup
+    .card-body
+      p.text-medium-emphasis.small Using the grid, wrap cards in columns and rows as needed.
+      +example('https://coreui.io/docs/components/card/#using-grid-markup')
+        .row
+          .col-sm-6
+            .card
+              .card-body
+                h5.card-title Special title treatment
+                p.card-text With supporting text below as a natural lead-in to additional content.
+                a.btn.btn-primary(href='#') Go somewhere
+          .col-sm-6
+            .card
+              .card-body
+                h5.card-title Special title treatment
+                p.card-text With supporting text below as a natural lead-in to additional content.
+                a.btn.btn-primary(href='#') Go somewhere
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Sizing - Using utilities
+    .card-body
+      p.text-medium-emphasis.small
+        | Use some of 
+        a(href='https://coreui.io/docs/utilities/sizing/') available sizing utilities
+        |  to rapidly set a card’s width.
+      +example('https://coreui.io/docs/components/card/#using-utilities')
+        .card.w-75.mb-3
+          .card-body
+            h5.card-title Card title
+            p.card-text With supporting text below as a natural lead-in to additional content.
+            a.btn.btn-primary(href='#') Button
+        .card.w-50
+          .card-body
+            h5.card-title Card title
+            p.card-text With supporting text below as a natural lead-in to additional content.
+            a.btn.btn-primary(href='#') Button
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Sizing - Using custom CSS
+    .card-body
+      p.text-medium-emphasis.small Use custom CSS in your stylesheets or as inline styles to set a width.
+      +example('https://coreui.io/docs/components/card/#using-custom-css')
+        .card(style='width: 18rem;')
+          .card-body
+            h5.card-title Special title treatment
+            p.card-text With supporting text below as a natural lead-in to additional content.
+            a.btn.btn-primary(href='#') Go somewhere
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Text alignment
+    .card-body
+      p.text-medium-emphasis.small
+        | You can instantly change the text arrangement of any card—in its whole or specific parts—with 
+        a(href='https://coreui.io/docs/utilities/text/#text-alignment') text align classes
+        | .
+      +example('https://coreui.io/docs/components/card/#text-alignment')
+        .card.mb-3(style='width: 18rem;')
+          .card-body
+            h5.card-title Special title treatment
+            p.card-text With supporting text below as a natural lead-in to additional content.
+            a.btn.btn-primary(href='#') Go somewhere
+        .card.mb-3.text-center(style='width: 18rem;')
+          .card-body
+            h5.card-title Special title treatment
+            p.card-text With supporting text below as a natural lead-in to additional content.
+            a.btn.btn-primary(href='#') Go somewhere
+        .card.mb-3.text-end(style='width: 18rem;')
+          .card-body
+            h5.card-title Special title treatment
+            p.card-text With supporting text below as a natural lead-in to additional content.
+            a.btn.btn-primary(href='#') Go somewhere
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Navigation
+    .card-body
+      p.text-medium-emphasis.small
+        | Add some navigation to a card’s header (or block) with Bootstrap’s 
+        a(href='https://coreui.io/docs/components/navs-tabs/') nav components
+        | .
+      +example('https://coreui.io/docs/components/card/#navigation')
+        .card.text-center
+          .card-header
+            ul.nav.nav-tabs.card-header-tabs
+              li.nav-item
+                a.nav-link.active(aria-current='true' href='#') Active
+              li.nav-item
+                a.nav-link(href='#') Link
+              li.nav-item
+                a.nav-link.disabled(href='#' tabindex='-1' aria-disabled='true') Disabled
+          .card-body
+            h5.card-title Special title treatment
+            p.card-text With supporting text below as a natural lead-in to additional content.
+            a.btn.btn-primary(href='#') Go somewhere
+      +example('https://coreui.io/docs/components/card/#navigation')
+        .card.text-center
+          .card-header
+            ul.nav.nav-pills.card-header-pills
+              li.nav-item
+                a.nav-link.active(href='#') Active
+              li.nav-item
+                a.nav-link(href='#') Link
+              li.nav-item
+                a.nav-link.disabled(href='#' tabindex='-1' aria-disabled='true') Disabled
+          .card-body
+            h5.card-title Special title treatment
+            p.card-text With supporting text below as a natural lead-in to additional content.
+            a.btn.btn-primary(href='#') Go somewhere
+
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Image caps
+    .card-body
+      p.text-medium-emphasis.small
+        | Similar to headers and footers, cards can include top and bottom “image caps”—images at the top or bottom of a card.
+      +example('https://coreui.io/docs/components/card/#image-caps')
+        .row
+          .col-md-6
+            .card.mb-3
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                p.card-text
+                  small.text-medium-emphasis Last updated 3 mins ago
+          .col-md-6
+            .card
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                p.card-text
+                  small.text-medium-emphasis Last updated 3 mins ago
+              img.card-img-bottom(src='assets/img/full.jpg' alt='')
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Image overlays
+    .card-body
+      p.text-medium-emphasis.small
+        | Adapt an image into a background and overlay your text. Depending on the image, you may need additional styles or utilities.
+      +example('https://coreui.io/docs/components/card/#image-overlays')
+        .card.bg-dark.text-white
+          img.card-img(src='assets/img/full.jpg' alt='')
+          .card-img-overlay
+            h5.card-title Card title
+            p.card-text
+              | This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+            p.card-text Last updated 3 mins ago
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Horizontal
+    .card-body
+      p.text-medium-emphasis.small
+        | Using a combination of grid and utility classes, cards can be made horizontal in a mobile-friendly and responsive way. In the example below, we remove the grid gutters with 
+        code .g-0
+        |  and use 
+        code .col-md-*
+        |  classes to make the card horizontal at the 
+        code md
+        |  breakpoint. Further adjustments may be needed depending on your card content.
+      +example('https://coreui.io/docs/components/card/#horizontal')
+        .card
+          .row.g-0
+            .col-md-4
+              img.card-img(src='assets/img/full.jpg' alt='')
+            .col-md-8
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                p.card-text
+                  small.text-medium-emphasis Last updated 3 mins ago
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Card styles - Background and color
+    .card-body
+      p.text-medium-emphasis.small
+        | Cards include various options for customizing their backgrounds, borders, and color.
+        | Use 
+        a(href='https://coreui.io/docs/utilities/colors/') text color
+        |  and 
+        a(href='https://coreui.io/docs/utilities/background/') background utilities
+        |  to change the appearance of a card.
+      +example('https://coreui.io/docs/components/card/#background-and-color')
+        .row
+          .col-xl-4
+            .card.text-white.bg-primary.mb-3
+              .card-header Header
+              .card-body
+                h5.card-title Primary card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.text-white.bg-secondary.mb-3
+              .card-header Header
+              .card-body
+                h5.card-title Secondary card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.text-white.bg-success.mb-3
+              .card-header Header
+              .card-body
+                h5.card-title Success card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.text-white.bg-danger.mb-3
+              .card-header Header
+              .card-body
+                h5.card-title Danger card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.text-white.bg-warning.mb-3
+              .card-header Header
+              .card-body
+                h5.card-title Warning card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.text-white.bg-info.mb-3
+              .card-header Header
+              .card-body
+                h5.card-title Info card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.text-dark.bg-light.mb-3
+              .card-header Header
+              .card-body
+                h5.card-title Light card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.text-white.bg-dark.mb-3
+              .card-header Header
+              .card-body
+                h5.card-title Dark card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Card styles - Border
+    .card-body
+      p.text-medium-emphasis.small
+        | Use 
+        a(href='https://coreui.io/docs/utilities/borders/') border utilities
+        |  to change just the 
+        code border-color
+        |  of a card. Note that you can put 
+        code .text-{color}
+        |  classes on the parent 
+        code .card
+        |  or a subset of the card’s contents as shown below.
+      +example('https://coreui.io/docs/components/card/#border')
+        .row
+          .col-xl-4
+            .card.border-primary.mb-3
+              .card-header Header
+              .card-body.text-primary
+                h5.card-title Primary card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4  
+            .card.border-secondary.mb-3
+              .card-header Header
+              .card-body.text-secondary
+                h5.card-title Secondary card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-success.mb-3
+              .card-header Header
+              .card-body.text-success
+                h5.card-title Success card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4  
+            .card.border-danger.mb-3
+              .card-header Header
+              .card-body.text-danger
+                h5.card-title Danger card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-warning.mb-3
+              .card-header Header
+              .card-body.text-warning
+                h5.card-title Warning card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-info.mb-3
+              .card-header Header
+              .card-body.text-info
+                h5.card-title Info card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-light.mb-3
+              .card-header Header
+              .card-body
+                h5.card-title Light card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-dark.mb-3
+              .card-header Header
+              .card-body.text-dark
+                h5.card-title Dark card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Top border
+    .card-body
+      p.text-medium-emphasis.small
+        | Use 
+        a(href='https://coreui.io/docs/utilities/borders/') border utilities
+        |  to change just the 
+        code border-top-color
+        |  of a card. Note that you can put 
+        code .text-{color}
+        |  classes on the parent 
+        code .card
+        |  or a subset of the card’s contents as shown below.
+      +example('https://coreui.io/docs/components/card/#top-border')
+        .row
+          .col-xl-4
+            .card.border-top-primary.border-top-3.mb-3
+              .card-header Header
+              .card-body.text-primary
+                h5.card-title Primary card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-top-secondary.border-top-3.mb-3
+              .card-header Header
+              .card-body.text-secondary
+                h5.card-title Secondary card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-top-success.border-top-3.mb-3
+              .card-header Header
+              .card-body.text-success
+                h5.card-title Success card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-top-danger.border-top-3.mb-3
+              .card-header Header
+              .card-body.text-danger
+                h5.card-title Danger card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-top-warning.border-top-3.mb-3
+              .card-header Header
+              .card-body.text-warning
+                h5.card-title Warning card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-top-info.border-top-3.mb-3
+              .card-header Header
+              .card-body.text-info
+                h5.card-title Info card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-top-light.border-top-3.mb-3
+              .card-header Header
+              .card-body
+                h5.card-title Light card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .col-xl-4
+            .card.border-top-dark.border-top-3.mb-3
+              .card-header Header
+              .card-body.text-dark
+                h5.card-title Dark card title
+                p.card-text
+                  | Some quick example text to build on the card title and make up the bulk of the card's content.
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Mixins utilities
+    .card-body
+      p.text-medium-emphasis.small
+        | You are able to adjust the borders on the card elements as needed, and even exclude their 
+        code background-color
+        |  with 
+        code .bg-transparent
+        | .
+      +example('https://coreui.io/docs/components/card/#mixins-utilities')
+        .card.border-success.mb-3(style='max-width: 18rem;')
+          .card-header.bg-transparent.border-success Header
+          .card-body.text-success
+            h5.card-title Success card title
+            p.card-text
+              | Some quick example text to build on the card title and make up the bulk of the card's content.
+          .card-footer.bg-transparent.border-success Footer
+
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Card groups
+    .card-body
+      p.text-medium-emphasis.small
+        | Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use 
+        code display: flex;
+        |  to become attached with uniform dimensions starting at the 
+        code sm
+        |  breakpoint.
+      +example()
+        .card-group
+          .card
+            img.card-img-top(src='assets/img/full.jpg' alt='')
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              p.card-text
+                small.text-medium-emphasis Last updated 3 mins ago
+          .card
+            img.card-img-top(src='assets/img/full.jpg' alt='')
+            .card-body
+              h5.card-title Card title
+              p.card-text This card has supporting text below as a natural lead-in to additional content.
+              p.card-text
+                small.text-medium-emphasis Last updated 3 mins ago
+          .card
+            img.card-img-top(src='assets/img/full.jpg' alt='')
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+              p.card-text
+                small.text-medium-emphasis Last updated 3 mins ago
+      p.text-medium-emphasis.small When using card groups with footers, their content will automatically line up.
+      +example('https://coreui.io/docs/components/card/#card-groups')
+        .card-group
+          .card
+            img.card-img-top(src='assets/img/full.jpg' alt='')
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+            .card-footer
+              small.text-medium-emphasis Last updated 3 mins ago
+          .card
+            img.card-img-top(src='assets/img/full.jpg' alt='')
+            .card-body
+              h5.card-title Card title
+              p.card-text This card has supporting text below as a natural lead-in to additional content.
+            .card-footer
+              small.text-medium-emphasis Last updated 3 mins ago
+          .card
+            img.card-img-top(src='assets/img/full.jpg' alt='')
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+            .card-footer
+              small.text-medium-emphasis Last updated 3 mins ago
+  .card.mb-4
+    .card-header
+      strong Card
+      span.small.ms-1 Grid cards
+    .card-body
+      p.text-medium-emphasis.small
+        | Use the Bootstrap grid system and its 
+        a(href='https://coreui.io/docs/layout/grid/#row-columns')
+          code .row-cols
+          |  classes
+        |  to control how many grid columns (wrapped around your cards) you show per row. For example, here’s 
+        code .row-cols-1
+        |  laying out the cards on one column, and 
+        code .row-cols-md-2
+        |  splitting four cards to equal width across multiple rows, from the medium breakpoint up.
+      +example('https://coreui.io/docs/components/card/#grid-cards')
+        .row.row-cols-1.row-cols-md-2.g-4
+          .col
+            .card
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .col
+            .card
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .col
+            .card
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a longer card with supporting text below as a natural lead-in to additional content.
+          .col
+            .card
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      p.text-medium-emphasis.small
+        | Change it to 
+        code .row-cols-3
+        |  and you’ll see the fourth card wrap.
+      +example('https://coreui.io/docs/components/card/#grid-cards')
+        .row.row-cols-1.row-cols-md-3.g-4
+          .col
+            .card
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .col
+            .card
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .col
+            .card
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a longer card with supporting text below as a natural lead-in to additional content.
+          .col
+            .card
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      p.text-medium-emphasis.small
+        | When you need equal height, add 
+        code .h-100
+        |  to the cards. If you want equal heights by default, you can set 
+        code $card-height: 100%
+        |  in Sass.
+      +example('https://coreui.io/docs/components/card/#grid-cards')
+        .row.row-cols-1.row-cols-md-3.g-4
+          .col
+            .card.h-100
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          .col
+            .card.h-100
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text This is a short card.
+          .col
+            .card.h-100
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a longer card with supporting text below as a natural lead-in to additional content.
+          .col
+            .card.h-100
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      p.text-medium-emphasis.small Just like with card groups, card footers will automatically line up.
+      +example('https://coreui.io/docs/components/card/#grid-cards')
+        .row.row-cols-1.row-cols-md-3.g-4
+          .col
+            .card.h-100
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              .card-footer
+                small.text-medium-emphasis Last updated 3 mins ago
+          .col
+            .card.h-100
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text This card has supporting text below as a natural lead-in to additional content.
+              .card-footer
+                small.text-medium-emphasis Last updated 3 mins ago
+          .col
+            .card.h-100
+              img.card-img-top(src='assets/img/full.jpg' alt='')
+              .card-body
+                h5.card-title Card title
+                p.card-text
+                  | This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+              .card-footer
+                small.text-medium-emphasis Last updated 3 mins ago

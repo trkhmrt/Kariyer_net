@@ -21,6 +21,7 @@
     <None Remove="Views\Contact\" />
     <None Remove="Views\ErrorPage\" />
     <None Remove="Concrete\" />
+    <None Remove="Views\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Shared\Components\" />
@@ -37,6 +38,8 @@
     <Folder Include="Views\Contact\" />
     <Folder Include="Views\ErrorPage\" />
     <Folder Include="Concrete\" />
+    <Folder Include="wwwroot\ImageFile\" />
+    <Folder Include="Views\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
@@ -45,5 +48,17 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\ImageFile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\IlanFotoEkle.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\IlanFotoEkle.cs">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 </Project>
