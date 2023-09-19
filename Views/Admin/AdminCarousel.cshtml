@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "/Views/Shared/_AdminLayout.cshtml";
+}
+@model List<Kariyer_net.Models.Carousel>
+
+    <form method="post" action="/Admin/AdminCarousel">
+        <div class="container" style="display:flex;justify-content:center;width:100%;flex-direction:column">
+            <h1 style="text-align:center">CAROUSEL GÜNCELLEME EKRANI</h1>
+            @foreach (var item in Model)
+            {<div class="container" style="display: flex; flex-direction: row; margin-bottom: 20px">
+                    <div>
+                        <input name="id" value="@item.CaroueselID" hidden/>
+                        <img src="@item.CarouselFotoUrl" width="200px" height="200px" />
+                    </div>
+                    <div>
+
+                        <label>Baslik</label><br />
+                        <input type="text" name="baslik" value="@item.CarouselBaslik" /><br />
+                        <label>Aciklama</label><br />
+                        <textarea name="aciklama">@item.CarouselAciklama</textarea><br />
+                        <label>URL</label><br />
+                        <textarea name="fotourl">@item.CarouselFotoUrl</textarea>
+                    </div>
+                    <div style="display:flex;align-items:center"><input type="submit" class="btn btn-warning" value="GUNCELLE" /></div>
+                </div>
+
+            }
+
+        </div>
+    </form>
+
+
+
+
+
+
+

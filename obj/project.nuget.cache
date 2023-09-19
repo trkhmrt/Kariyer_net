@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "caNQVqfdJSIY6wdC2RDIxmEUZTvi76KLbgbqxohJ3F+citcpDI6EqTIC2SYkAMnVc8I0kYWmuw8KAz/9uc0d5w==",
+  "dgSpecHash": "vNPeEthnzYvPODwr85T3gsLaE7bcALc2I02u1J/7yMK92AoIJgMD2ECTbjZVT+cyalSvUiHcNqpLUDMlAe47Og==",
   "success": true,
-  "projectFilePath": "/Users/tarikhamarat/Projects/Kariyer_net/Kariyer_net.csproj",
+  "projectFilePath": "/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Kariyer_net.csproj",
   "expectedPackageFiles": [
     "/Users/tarikhamarat/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/tarikhamarat/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

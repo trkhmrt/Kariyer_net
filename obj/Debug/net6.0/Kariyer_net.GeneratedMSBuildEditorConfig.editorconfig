@@ -9,73 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Kariyer_net
 build_property.RootNamespace = Kariyer_net
-build_property.ProjectDir = /Users/tarikhamarat/Projects/Kariyer_net/
+build_property.ProjectDir = /Users/tarikhamarat/Desktop/GitHub/Kariyer_net/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/tarikhamarat/Projects/Kariyer_net
+build_property.MSBuildProjectDirectory = /Users/tarikhamarat/Desktop/GitHub/Kariyer_net
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/About/Index.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/Admin/Index.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Admin/AdminCarousel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRtaW5DYXJvdXNlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Admin/AdminIlanDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRtaW5JbGFuRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Admin/GetIlanlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vR2V0SWxhbmxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/Admin/Login.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/Contact/Index.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/ErrorPage/Index.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/ErrorPage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXJyb3JQYWdlL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/Home/Index.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/JobDetail/Index.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/JobDetail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iRGV0YWlsL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/JobList/Index.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/JobList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9iTGlzdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/Shared/Components/Carousel/Default.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Shared/Components/Carousel/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2Fyb3VzZWwvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/Shared/Components/Job/Default.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Shared/Components/Job/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvSm9iL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/Shared/Components/Testimonial/Default.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Shared/Components/Testimonial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVGVzdGltb25pYWwvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/Shared/Error.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/_ViewImports.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/_ViewStart.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tarikhamarat/Projects/Kariyer_net/Views/Shared/_Layout.cshtml]
+[/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pe5urw8ie2
