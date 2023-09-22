@@ -1,0 +1,19 @@
+﻿@model List<Kullanici>
+@{
+    Layout = "/Views/Shared/_AdminLayout.cshtml";
+}
+ 
+<table>
+    <tr>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserName</td>
+            <td><a asp-controller="Admin" asp-action="GetFile" asp-route-filePath="/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/CVFILE/@item.Cv">Dosyayı İndir</a></td>
+        </tr>
+    }
+
+
+</table>

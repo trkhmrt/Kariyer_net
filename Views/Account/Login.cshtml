@@ -1,4 +1,4 @@
-﻿
+﻿@model UserSignInViewModel
 @{
     Layout = null;
 }
@@ -37,27 +37,22 @@
                     <img src="~/Login_v1/images/img-01.png" alt="IMG">
                 </div>
 
-                <form class="login100-form">
+                <form class="login100-form" role="form" method="post" asp-action="Login">
 
 
-                    <div class="wrap-input100 validate-input active" data-validate="Valid email is required: ex@abc.xyz">
-                        <input class="input100" type="text" name="email" placeholder="Username/Mail">
+                    <div class="wrap-input100 validate-input active" >
+                        <input class="input100" type="text" asp-for="@Model.username" placeholder="Username/Mail">
 
-                        <span class="symbol-input100 ">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                        </span>
+                      
                     </div>
 
-                    <div class="wrap-input100 validate-input" data-validate="Password is required">
-                        <input class="input100" type="password" name="pass" placeholder="Password">
-                        <span class="focus-input100"></span>
-                        <span class="symbol-input100">
-                            <i class="fa fa-lock" aria-hidden="true"></i>
-                        </span>
+                    <div class="wrap-input100 validate-input">
+                        <input class="input100" type="password" asp-for="@Model.password" placeholder="Password">
+                       
                     </div>
 
                     <div class="container-login100-form-btn">
-                        <button class="login100-form-btn">
+                        <button class="login100-form-btn" type="submit">
                             Login
                         </button>
                     </div>
@@ -91,7 +86,8 @@
     <script src="~/Login_v1/vendor/select2/select2.min.js"></script>
     <!--===============================================================================================-->
     <script src="~/Login_v1/vendor/tilt/tilt.jquery.min.js"></script>
-    <script>$('.js-tilt').tilt({
+    <script>
+$('.js-tilt').tilt({
             scale: 1.1
         })</script>
     <!--===============================================================================================-->

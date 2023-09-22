@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -53,15 +56,27 @@
                     <a href="/Home/Index" class="nav-item nav-link active">Home</a>
                     <a href="/JobList/Index" class="nav-item nav-link">Job List</a>
                     <a href="/Contact/Index" class="nav-item nav-link">Contact</a>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+
+                        <form asp-area="Identity" asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="form-inline">
+                            <button type="submit" class="nav-item nav-link btn btn-link text-dark">Çıkış Yap</button>
+                        </form>
+
+                    }
+                    else
+                    {
+                        <a href="/Account/Login" class="nav-item nav-link">Giriş Yap</a>
+                    }
                 </div>
                 <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Post A Job<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
 
         <!-- Navbar End -->
-     
+
         @RenderBody()
-        
+
         <!-- About Start -->
         <div class="container-xxl py-5">
             <div class="container">
@@ -71,13 +86,13 @@
         <!-- About End -->
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-           
-            </div>
-            
+
         </div>
-        <!-- Footer End -->
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->

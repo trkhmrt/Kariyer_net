@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Kariyer_net.Concrete;
+using Kariyer_net.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,16 +14,21 @@ namespace Kariyer_net.Controllers
 {
     public class AdminController : Controller
     {
+        private readonly UserManager<Kullanici> _usermanager; //UserManager identitye ait kayıt olma metodu
+
+        public AdminController(UserManager<Kullanici> userManager)
+        {
+            _usermanager = userManager;
+        }
+
         // GET: /<controller>/
         public IActionResult Index()
         {
+            var user = User.Identity.Name;
+
             return View();
         }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
 
         [HttpPost]
         public IActionResult GetIlanlar()
@@ -109,6 +116,23 @@ namespace Kariyer_net.Controllers
 
 
             return View();
+        }
+        public async Task<IActionResult> GetUyeler()
+        {
+            Context c = new Context();
+            var uyeler = await _usermanager.Users.ToListAsync();
+
+            return View(uyeler);
+        }
+        [HttpGet]
+        public  IActionResult GetFile(string filePath)
+        {
+            var dosyabyte = System.IO.File.ReadAllBytes(filePath);
+            var dosya_adi = Path.GetFileName(filePath);
+
+
+            return File(dosyabyte, "application/octet-stream", dosya_adi);
+            
         }
 
     }

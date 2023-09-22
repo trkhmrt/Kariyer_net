@@ -5,14 +5,14 @@
 namespace Kariyer_net.Migrations
 {
     /// <inheritdoc />
-    public partial class ilan_foto : Migration
+    public partial class cv_file_upload : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
-                name: "IlanFotoUrl",
-                table: "Ilans",
+                name: "Cv",
+                table: "AspNetUsers",
                 type: "nvarchar(max)",
                 nullable: false,
                 defaultValue: "");
@@ -22,8 +22,8 @@ namespace Kariyer_net.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "IlanFotoUrl",
-                table: "Ilans");
+                name: "Cv",
+                table: "AspNetUsers");
         }
     }
 }

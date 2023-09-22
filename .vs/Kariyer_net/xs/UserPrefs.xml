@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{C3385708-B3B3-4BA6-AE9D-75C890991738}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Controllers/LoginController.cs" relfile="Controllers/LoginController.cs" line="33" column="1" />
+      <Breakpoint file="/Users/tarikhamarat/Desktop/GitHub/Kariyer_net/Controllers/RegisterUserController.cs" relfile="Controllers/RegisterUserController.cs" line="34" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Views/Admin/Index.cshtml" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="Controllers/AdminController.cs" />
+      <File FileName="Views/Shared/_AdminLayout.cshtml" />
+      <File FileName="Views/Admin/GetIlanlar.cshtml" />
+      <File FileName="Concrete/Context.cs" Line="13" Column="78" />
+      <File FileName="Views/JobList/Index.cshtml" />
+      <File FileName="Views/Shared/Components/Job/Default.cshtml" />
+      <File FileName="ViewComponents/Jobs/Job.cs" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Views/_ViewStart.cshtml" />
+      <File FileName="Controllers/AboutController.cs" />
+      <File FileName="Views/JobDetail/Index.cshtml" />
+      <File FileName="Controllers/JobDetailController.cs" />
+      <File FileName="Views/Admin/AdminCarousel.cshtml" />
+      <File FileName="Views/Shared/Components/Carousel/Default.cshtml" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Models/Kullanici.cs" />
+      <File FileName="Models/UserSignUpViewModel.cs" />
+      <File FileName="Controllers/RegisterUserController.cs" />
+      <File FileName="Views/RegisterUser/Index.cshtml" />
+      <File FileName="Program.cs" Line="45" Column="1" />
+      <File FileName="Controllers/LoginController.cs" />
+      <File FileName="Views/Login/Index.cshtml" />
+      <File FileName="Models/UserSignInViewModel.cs" />
+      <File FileName="ViewComponents/Carousels/Carousel.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Kariyer_net">
+            <Node name="Kariyer_net">
+              <Node name="Concrete" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewComponents" expanded="True">
+                <Node name="Carousels" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Kariyer__net PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

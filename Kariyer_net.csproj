@@ -22,6 +22,11 @@
     <None Remove="Views\ErrorPage\" />
     <None Remove="Concrete\" />
     <None Remove="Views\Admin\" />
+    <None Remove="Views\RegisterUser\" />
+    <None Remove="ViewComponents\Categories\" />
+    <None Remove="Views\Shared\Components\Category\" />
+    <None Remove="Views\Account\" />
+    <None Remove="CVFILE\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Shared\Components\" />
@@ -40,6 +45,11 @@
     <Folder Include="Concrete\" />
     <Folder Include="wwwroot\ImageFile\" />
     <Folder Include="Views\Admin\" />
+    <Folder Include="Views\RegisterUser\" />
+    <Folder Include="ViewComponents\Categories\" />
+    <Folder Include="Views\Shared\Components\Category\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="CVFILE\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
@@ -48,6 +58,8 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.22" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\ImageFile\" />
